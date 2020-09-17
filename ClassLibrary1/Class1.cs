@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.VisualBasic;
 
 namespace ClassLibrary1 {
     
@@ -73,7 +74,14 @@ namespace ClassLibrary1 {
             return "Nombre: " + nombre + ", Apellido: " + apellido + ", salario nominal: " + salario + 
                    ", salario neto:" + salarioNeto();
         }
+
+
+        public void saludoDiaDelProgramador() {
+            Console.WriteLine("¡Felíz día del Programador!");
+        }
+        
+        
+        
     }
-    
 }
 
